@@ -1,0 +1,68 @@
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Xcode & Build Artifacts
+# ==========================================
+# User-specific data (window layout, open files, breakpoints)
+*.xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+
+# Build results & intermediate files
+build/
+DerivedData/
+*.moved-aside
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Xcode scheme management (keep shared schemes, ignore user-specific)
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+
+# Xcode 3.x / older versions
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+
+# ==========================================
+# Swift Package Manager (SPM)
+# ==========================================
+.build/
+.swiftpm/xcode/package.xcworkspace/
+.swiftpm/configuration/
+
+# ==========================================
+# CocoaPods & Carthage (Optional / If added)
+# ==========================================
+Pods/
+Carthage/Build/
+
+# ==========================================
+# Fastlane & CI
+# ==========================================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+!fastlane/screenshots/**/title.strings
+!fastlane/screenshots/**/keyword.strings
+fastlane/test_output
+
+# ==========================================
+# Playgrounds
+# ==========================================
+timeline.xctimeline
+playground.xcworkspace
